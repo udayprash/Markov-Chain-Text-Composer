@@ -51,7 +51,7 @@ def compose(graph, words, length=50):
 
 def main():
     # 1. get words from text
-    words = get_words('texts/hp_sorcerer_stone.txt')
+    words = get_words('hp_sorcerer_stone.txt')
 
     # 2. make a graph using words
     graph = make_graph(words)
